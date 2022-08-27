@@ -4,9 +4,152 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400&display=swap"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <title>womazing</title>
   </head>
   <body>
-    <div class="container"></div>
+    <section class="home">
+      <div class="home__inner-bg"></div>
+      <div class="container">
+        <nav class="nav">
+          <a class="logo" href="#">
+            <img class="logo__img" src="./img/logo.svg" alt="logo" />
+          </a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./shop.html">Магазин</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./about.html">О бренде</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./contacts.html">Контакты</a>
+            </li>
+          </ul>
+
+          <a class="nav__phone" href="to:+3808235412">+ 380-823-54-12</a>
+          <a class="nav__cart" href="#"></a>
+          <button class="menu">
+            <span class="menu__item">Menu</span>
+          </button>
+        </nav>
+
+        <div class="home__inner">
+          <div class="home__descr">
+            <h1 class="home__title">Новые выступления в этом сезоне</h1>
+            <p class="home__subtitle">
+              Утонченные сочетания и бархатные оттенки - вот то, что вы искали в
+              этом сезоне. Время исследовать.
+            </p>
+            <div class="home__link">
+              <a class="home__bottom" href="#">bottom</a>
+              <a class="home__shop" href="#">Открыть магазин</a>
+            </div>
+          </div>
+          <div class="home__images">
+            <img src="./img/home/bg.jpg" alt="" class="home__img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="collection">
+        <div class="container">
+          <h2 class="title">Новая коллекция</h2>
+          <ul class="collection__list">
+            <li class="collection__item">
+              <article class="collection__article">
+                <a href="#" class="collection__link">
+                  <div class="collection__image">
+                    <img
+                      alt="photo collection"
+                      class="collection__img"
+                      src="./img/home/collection/1.jpg"
+                    />
+                  </div>
+                </a>
+                <p class="collection__item-title">Футболка USA</p>
+                <div class="collection__price">
+                  <p class="collection__old-price">$169</p>
+                  <p class="collection__new-price">$129</p>
+                </div>
+              </article>
+            </li>
+            <li class="collection__item">
+              <article class="collection__article">
+                <a href="#" class="collection__link">
+                  <div class="collection__image">
+                    <img
+                      alt="photo collection"
+                      class="collection__img"
+                      src="./img/home/collection/2.jpg"
+                    />
+                  </div>
+                </a>
+                <p class="collection__item-title">Купальник Glow</p>
+                <div class="collection__price">
+                  <p class="collection__new-price">$129</p>
+                </div>
+              </article>
+            </li>
+            <li class="collection__item">
+              <article class="collection__article">
+                <a href="#" class="collection__link">
+                  <div class="collection__image">
+                    <img
+                      alt="photo collection"
+                      class="collection__img"
+                      src="./img/home/collection/3.jpg"
+                    />
+                  </div>
+                </a>
+                <p class="collection__item-title">Свитшот Sweet Shot</p>
+                <div class="collection__price">
+                  <p class="collection__new-price">$129</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <a class="collection__shop-link" href="/shop.html">Oткрыть магазин</a>
+        </div>
+      </section>
+      <section class="important">
+        <div class="container">
+          <h2 class="title">Что для нас важно</h2>
+          <ul class="important__list">
+            <li class="important__item  important__item--quality">
+              <p class="important__item-title">Качество</p>
+              <p class="important__item-description">
+                Наши профессионалы работают на лучшем оборудовании для пошива
+                одежды беспрецедентного качества
+              </p>
+            </li>
+            <li class="important__item  important__item--speed">
+              <p class="important__item-title">Скорость</p>
+              <p class="important__item-description">
+                Благодаря отлаженной системе в Womazing мы можем отшивать до
+                20-ти единиц продукции в наших собственных цехах
+              </p>
+            </li>
+            <li class="important__item  important__item--responsibility">
+              <p class="important__item-title">Ответственность</p>
+              <p class="important__item-description">
+                Мы заботимся о людях и планете. Безотходное производство и
+                комфортные условия труда - все это Womazing
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
   </body>
 </html>

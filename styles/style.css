@@ -21,6 +21,10 @@ body {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .container {
   max-width: 1140px;
@@ -29,7 +33,7 @@ body {
   padding: 0 15px;
 }
 
-.title{
+.title {
   font-weight: 500;
   font-size: 40px;
   line-height: 110%;
@@ -183,4 +187,156 @@ body {
   .nav {
     padding-top: 20px;
   }
+}
+
+/* ----------------------------------- */
+/* ---------footer-------------------- */
+/* ----------------------------------- */
+
+.footer {
+  padding: 100px 0;
+  background-color: #f1eadc;
+}
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+}
+.footer__phone {
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  margin-bottom: 10px;
+}
+.footer__mail {
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+.footer__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+.footer__items-clothing {
+  display: flex;
+  flex-direction: column;
+}
+.footer__copy-item {
+  margin-bottom: 5px;
+}
+.footer__copy-item:last-child {
+  margin-bottom: 0;
+}
+.footer__clothing {
+  margin-bottom: 10px;
+}
+.footer__clothing:last-child {
+  margin-bottom: 0;
+}
+.footer__social {
+  display: flex;
+}
+.footer__social-item {
+  width: 22px;
+  height: 22px;
+  margin-right: 12px;
+}
+.footer__social-link {
+  font-size: 0;
+  position: relative;
+}
+.footer__social-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.footer--instagram::before {
+  background-image: url(../img/icons/instagram.svg);
+}
+.footer--facebook::before {
+  background-image: url(../img/icons/facebook.svg);
+}
+.footer--twitter::before {
+  background-image: url(../img/icons/twitter.svg);
+}
+.footer__pay {
+  object-fit: cover;
+  width: 68px;
+}
+
+@media screen and(max-witdth: 768px) {
+  .footer {
+    padding: 50px 0;
+  }
+  .footer__nav {
+    margin-bottom: 30px;
+  }
+  .footer__items {
+    align-items: flex-start;
+  }
+}
+@media screen and(max-witdth: 480px) {
+  .footer__items {
+    flex-wrap: wrap;
+  }
+  .footer__social-items {
+    width: 100%;
+  }
+}
+.footer__social-items {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ! Crumbs */
+
+.crumbs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 215px;
+}
+.crumbs__item {
+  margin-right: 42px;
+  position: relative;
+}
+.crumbs__item:last-child {
+  margin-right: 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #919191;
+}
+.crumbs__item:last-child::after {
+  height: 0;
+}
+.crumbs__item::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 2px;
+  right: -28px;
+  top: 10px;
+  background-color: #000;
+}
+.crumbs__link {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
 }

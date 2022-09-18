@@ -1,44 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
     <title>about</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <nav class="nav">
-            <a class="logo" href="#">
-              <img class="logo__img" src="./img/logo.svg" alt="logo" />
-            </a>
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a class="nav__link" href="./index.html">Главная</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="./shop.html">Магазин</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="./about.html">О бренде</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="./contacts.html">Контакты</a>
-              </li>
-            </ul>
-  
-            <a class="nav__phone" href="to:+3808235412">+ 380-823-54-12</a>
-            <a class="nav__cart" href="#"></a>
-            <button class="menu">
-              <span class="menu__item">Menu</span>
-            </button>
-          </nav>
+      <nav class="nav">
+        <a class="logo" href="#">
+          <img class="logo__img" src="./img/logo.svg" alt="logo" />
+        </a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="./index.html">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./shop.html">Магазин</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./about.html">О бренде</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./contacts.html">Контакты</a>
+          </li>
+        </ul>
+
+        <a class="nav__phone" href="to:+3808235412">+ 380-823-54-12</a>
+        <a class="nav__cart" href="#"></a>
+        <button class="menu">
+          <span class="menu__item">Menu</span>
+        </button>
+      </nav>
     </div>
     <main>
-        <h1>О бренде</h1>
+      <section class="about">
+        <div class="container">
+          <h1 class="about__title">O бренде</h1>
+          <ul class="crumbs">
+            <li class="crumbs__item">
+              <a class="crumbs__link" href="./index.html">Главная</a>
+            </li>
+
+            <li class="crumbs__item">О бренде</li>
+          </ul>
+
+          <div class="about__inner">
+            <img class="about__img" src="./img/about/1.jpg" alt="woman" />
+            <div class="about__description">
+              <h2 class="about__title">Идея и женщина</h2>
+              <p class="about__text">
+                Womazing была основана в 2010-ом и стала одной из самых успешных
+                компаний нашей страны. Как и многие итальянские фирмы, Womazing
+                остаётся семейной компанией, хотя ни один из членов семьи не
+                является модельером.
+              </p>
+              <p class="about__text">
+                Мы действуем по успешной формуле, прибегая к услугам известных
+                модельеров для создания своих коллекций. Этот метод был описан
+                критиком моды Колином Макдауэллом как форма дизайнерского
+                со-творчества, характерная для ряда итальянских prêt-a-porter
+                компаний.
+              </p>
+            </div>
+          </div>
+              <div class="about__inner">
+                <img class="about__img" src="./img/about/2.jpg" alt="woman" />
+              <div class="about__description">
+                <h2 class="about__title">
+                  Магия в деталях
+                </h2>
+              <p class="about__text">
+                Первый магазин Womazing был открыт в маленьком городке на севере
+                страны в 2010-ом году. Первая коллекция состояла из двух пальто
+                и костюма, которые были копиями парижских моделей. 
+              </p>
+              <p class="about__text">
+                Несмотря на
+                то, что по образованию основательница была адвокатом, ее семья
+                всегда была тесно связана с шитьём (прабабушка основательницы
+                шила одежду для женщин, а мать основала профессиональную школу
+                кроя и шитья). Стремление производить одежду для масс несло в
+                себе большие перспективы, особенно в то время, когда высокая
+                мода по-прежнему доминировала, а рынка качественного
+                prêt-a-porter попросту не существовало.
+              </p>
+            </div>
+            </div>
+         <a class="about__link" href="./shop.html">Перейти в магазин</a>
+          </div>
+          </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__nav">
+          <a class="logo" href="#">
+            <img class="logo__img" src="./img/logo.svg" alt="logo" />
+          </a>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./shop.html">Магазин</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./about.html">О бренде</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./contacts.html">Контакты</a>
+            </li>
+          </ul>
+          <div class="footer__contacts">
+            <a class="footer__phone" href="to:+3808235412">+ 380-823-54-12</a>
+            <a class="footer__mail" href="mailto:hello@womazing.com"
+              >hello@womazing.com</a
+            >
+          </div>
+        </div>
+
+        <div class="footer__items">
+          <ul class="footer__copy">
+            <li class="footer__copy-item">
+              <p class="footer__copyright">Все права защищены</p>
+            </li>
+            <li class="footer__copy-item">
+              <a class="footer__link" href="#">Политика конфиденциальности</a>
+            </li>
+            <li class="footer__copy-item">
+              <a class="footer__link" href="#">Публична офера</a>
+            </li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__clothing">
+              <a class="footer__link" href="#">Пальто</a>
+            </li>
+            <li class="footer__clothing">
+              <a class="footer__link" href="#">Свитшоты</a>
+            </li>
+            <li class="footer__clothing">
+              <a class="footer__link" href="#">Кардиганы</a>
+            </li>
+            <li class="footer__clothing">
+              <a class="footer__link" href="#">Толстовки</a>
+            </li>
+          </ul>
+
+          <div class="footer__social-items">
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a class="footer__social-link footer--instagram" href="#"
+                  >instagram</a
+                >
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer--facebook" href="#"
+                  >Facebook</a
+                >
+              </li>
+
+              <li class="footer__social-item">
+                <a class="footer__social-link footer--twitter" href="#"
+                  >twitter</a
+                >
+              </li>
+            </ul>
+            <img
+              class="footer__pay"
+              src="./img/icons/visa-mastercard.png"
+              alt="visa-mastercard"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="./index.js"></script>
   </body>
 </html>

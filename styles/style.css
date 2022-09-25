@@ -41,7 +41,7 @@ body {
   color: #000;
   margin-bottom: 90px;
 }
-.primary__btn{
+.primary__btn {
   padding: 20px 50px;
   background-color: #6e9c9f;
   font-size: 17px;
@@ -348,4 +348,9 @@ body {
   font-size: 17px;
   line-height: 140%;
   letter-spacing: 0.02em;
+}
+@media screen and (max-width: 992px) {
+  .crumbs {
+    margin-bottom: 100px;
+  }
 }

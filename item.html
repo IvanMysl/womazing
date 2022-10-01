@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/about.css" />
-    <title>about</title>
+    <link rel="stylesheet" href="./styles/item.css" />
+    <title>Item</title>
   </head>
   <body>
     <div class="container">
@@ -36,63 +36,79 @@
         </button>
       </nav>
     </div>
+
     <main>
-      <section class="about">
+      <section class="item">
         <div class="container">
-          <h1 class="about__title">O бренде</h1>
+          <h1 class="page-title">Свитшот Sweet Shot</h1>
           <ul class="crumbs">
             <li class="crumbs__item">
               <a class="crumbs__link" href="./index.html">Главная</a>
             </li>
-
-            <li class="crumbs__item">О бренде</li>
+            <li class="crumbs__item">
+              <a class="crumbs__link" href="./index.html">Свитшоты</a>
+            </li>
+            <li class="crumbs__item">Свитшот Sweet Shot</li>
           </ul>
-
-          <div class="about__inner">
-            <img class="about__img" src="./img/about/1.jpg" alt="woman" />
-            <div class="about__description">
-              <h2 class="about__item-title">Идея и женщина</h2>
-              <p class="about__text">
-                Womazing была основана в 2010-ом и стала одной из самых успешных
-                компаний нашей страны. Как и многие итальянские фирмы, Womazing
-                остаётся семейной компанией, хотя ни один из членов семьи не
-                является модельером.
-              </p>
-              <p class="about__text">
-                Мы действуем по успешной формуле, прибегая к услугам известных
-                модельеров для создания своих коллекций. Этот метод был описан
-                критиком моды Колином Макдауэллом как форма дизайнерского
-                со-творчества, характерная для ряда итальянских prêt-a-porter
-                компаний.
-              </p>
-            </div>
+          <div class="item__inner">
+            <img
+              class="item__img"
+              src="./img/home/collection/3.jpg"
+              alt="woman"
+            />
+            <form class="item__form">
+              <div class="item__price">
+                <span class="item__price-new">$311</span>
+                <span class="item__price-old">$450</span>
+              </div>
+              <p class="item__size">Выберите размер</p>
+              <div class="item__size-list">
+                <lable class="item__lable-color">
+                  <input
+                    class="item__input"
+                    type="radio"
+                    name="size"
+                    value="s"
+                  />
+                </lable>
+                <lable class="item__lable-color">
+                    <input
+                      class="item__input"
+                      type="radio"
+                      name="size"
+                      value="purple"
+                    />
+                  </lable>
+                  <lable class="item__lable-color">
+                    <input
+                      class="item__input"
+                      type="radio"
+                      name="size"
+                      value="blue"
+                    />
+                  </lable>
+                  <lable class="item__lable-color">
+                    <input
+                      class="item__input"
+                      type="radio"
+                      name="size"
+                      value="pink"
+                    />
+                  </lable>
+                  <lable class="item__lable-color">
+                    <input
+                      class="item__input"
+                      type="radio"
+                      name="size"
+                      value="xl"
+                    />
+                  </lable>
+              </div>
+            </form>
           </div>
-              <div class="about__inner">
-                <img class="about__img about--reverse" src="./img/about/2.jpg" alt="woman" />
-              <div class="about__description">
-                <h2 class="about__item-title">
-                  Магия в деталях
-                </h2>
-              <p class="about__text">
-                Первый магазин Womazing был открыт в маленьком городке на севере
-                страны в 2010-ом году. Первая коллекция состояла из двух пальто
-                и костюма, которые были копиями парижских моделей. 
-              </p>
-              <p class="about__text">
-                Несмотря на
-                то, что по образованию основательница была адвокатом, ее семья
-                всегда была тесно связана с шитьём (прабабушка основательницы
-                шила одежду для женщин, а мать основала профессиональную школу
-                кроя и шитья). Стремление производить одежду для масс несло в
-                себе большие перспективы, особенно в то время, когда высокая
-                мода по-прежнему доминировала, а рынка качественного
-                prêt-a-porter попросту не существовало.
-              </p>
-            </div>
-            </div>
-         <a class="about__link primary__btn" href="./shop.html">Перейти в магазин</a>
-          </div>
-          </section>
+          <button class="primary__btn"></button>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">

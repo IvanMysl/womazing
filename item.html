@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,31 +12,30 @@
     <div class="container">
       <nav class="nav">
         <a class="logo" href="./index.html">
-          <img class="logo__img" src="./img/logo.svg" alt="logo" />
+          <img class="nav__img" src="./img/logo.svg" alt="logo" />
         </a>
         <ul class="nav__list">
           <li class="nav__item">
-            <a class="nav__link" href="./index.html">Главная</a>
+            <a href="./index.html" class="nav__link">Главная</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="./shop.html">Магазин</a>
+            <a href="./shop.html" class="nav__link">Магазин</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="./about.html">О бренде</a>
+            <a href="./about.html" class="nav__link">О бренде</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="./contacts.html">Контакты</a>
+            <a href="./contacts.html" class="nav__link">Контакти</a>
           </li>
         </ul>
 
-        <a class="nav__phone" href="to:+3808235412">+ 380-823-54-12</a>
+        <a class="nav__phone" href="to:+3808235412">+380-823-54-12</a>
         <a class="nav__cart" href="#"></a>
         <button class="menu">
           <span class="menu__item">Menu</span>
         </button>
       </nav>
     </div>
-
     <main>
       <section class="item">
         <div class="container">
@@ -50,6 +49,7 @@
             </li>
             <li class="crumbs__item">Свитшот Sweet Shot</li>
           </ul>
+
           <div class="item__inner">
             <img
               class="item__img"
@@ -63,77 +63,114 @@
               </div>
               <p class="item__size">Выберите размер</p>
               <div class="item__size-list">
-                <lable class="item__lable-color">
+                <lable class="item__lable">
                   <input
-                    class="item__input"
+                    class="item__input item__label--s"
                     type="radio"
                     name="size"
                     value="s"
                   />
                 </lable>
-                <lable class="item__lable-color">
-                    <input
-                      class="item__input"
-                      type="radio"
-                      name="size"
-                      value="purple"
-                    />
-                  </lable>
-                  <lable class="item__lable-color">
-                    <input
-                      class="item__input"
-                      type="radio"
-                      name="size"
-                      value="blue"
-                    />
-                  </lable>
-                  <lable class="item__lable-color">
-                    <input
-                      class="item__input"
-                      type="radio"
-                      name="size"
-                      value="pink"
-                    />
-                  </lable>
-                  <lable class="item__lable-color">
-                    <input
-                      class="item__input"
-                      type="radio"
-                      name="size"
-                      value="xl"
-                    />
-                  </lable>
+                <lable class="item__lable">
+                  <input
+                    class="item__input item__label--m"
+                    type="radio"
+                    name="size"
+                    value="m"
+                  />
+                </lable>
+                <lable class="item__lable">
+                  <input
+                    class="item__input item__label--l"
+                    type="radio"
+                    name="size"
+                    value="l"
+                  />
+                </lable>
+                <lable class="item__lable">
+                  <input
+                    class="item__input item__label--xl"
+                    type="radio"
+                    name="size"
+                    value="xl"
+                  />
+                </lable>
+                <lable class="item__lable">
+                  <input
+                    class="item__input item__label--xxl"
+                    type="radio"
+                    name="size"
+                    value="xxl"
+                  />
+                </lable>
               </div>
-            <button class="primary__btn">Добавить в корзину</button>
+
+              <p class="item__color">Выберите цвет</p>
+              <div class="item__color-list">
+                <lable class="item__lable-color">
+                  <input
+                    class="item__input-color item__input--purple"
+                    type="radio"
+                    name="color"
+                    value="purple"
+                  />
+                </lable>
+                <lable class="item__lable-color">
+                  <input
+                    class="item__input-color item__input--blue"
+                    type="radio"
+                    name="color"
+                    value="blue"
+                  />
+                </lable>
+                <lable class="item__lable-color">
+                  <input
+                    class="item__input-color item__input--pink"
+                    type="radio"
+                    name="color"
+                    value="pink"
+                  />
+                </lable>
+                <lable class="item__lable-color">
+                  <input
+                    class="item__input-color item__input--bodily"
+                    type="radio"
+                    name="color"
+                    value="bodily"
+                  />
+                </lable>
+              </div>
+
+              <button class="primary__amount">1</button>
+              <button class="primary__btn">Добавить в корзину</button>
             </form>
           </div>
-          <button class="primary__btn"></button>
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <div class="container">
         <div class="footer__nav">
           <a class="logo" href="#">
-            <img class="logo__img" src="./img/logo.svg" alt="logo" />
+            <img class="nav__img" src="./img/logo.svg" alt="logo" />
           </a>
-
           <ul class="nav__list">
             <li class="nav__item">
-              <a class="nav__link" href="#">Главная</a>
+              <a href="#" class="nav__link">Главная</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="./shop.html">Магазин</a>
+              <a href="./shop.html" class="nav__link">Магазин</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="./about.html">О бренде</a>
+              <a href="/about.html" class="nav__link">О бренде</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="./contacts.html">Контакты</a>
+              <a href="/contacts.html" class="nav__link">Контакти</a>
             </li>
           </ul>
           <div class="footer__contacts">
-            <a class="footer__phone" href="to:+3808235412">+ 380-823-54-12</a>
+            <a class="footer__phone" href="to:+3808235412">+380-823-54-12</a>
             <a class="footer__mail" href="mailto:hello@womazing.com"
               >hello@womazing.com</a
             >
@@ -143,16 +180,17 @@
         <div class="footer__items">
           <ul class="footer__copy">
             <li class="footer__copy-item">
-              <p class="footer__copyright">Все права защищены</p>
+              <p class="footer__copyright">© Все права защищены</p>
             </li>
             <li class="footer__copy-item">
               <a class="footer__link" href="#">Политика конфиденциальности</a>
             </li>
             <li class="footer__copy-item">
-              <a class="footer__link" href="#">Публична офера</a>
+              <a class="footer__link" href="#">Публичная оферта</a>
             </li>
           </ul>
-          <ul class="footer__item">
+
+          <ul class="footer__items-clothing">
             <li class="footer__clothing">
               <a class="footer__link" href="#">Пальто</a>
             </li>
@@ -176,10 +214,9 @@
               </li>
               <li class="footer__social-item">
                 <a class="footer__social-link footer--facebook" href="#"
-                  >Facebook</a
+                  >facebook</a
                 >
               </li>
-
               <li class="footer__social-item">
                 <a class="footer__social-link footer--twitter" href="#"
                   >twitter</a
@@ -188,7 +225,7 @@
             </ul>
             <img
               class="footer__pay"
-              src="./img/icons/visa-mastercard.png"
+              src="./img/footer/visa.png"
               alt="visa-mastercard"
             />
           </div>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/item.css" />
+   <link rel="stylesheet" href="./styles/home.css">
     <title>Item</title>
   </head>
   <body>
@@ -77,6 +78,7 @@
                     type="radio"
                     name="size"
                     value="m"
+                    checked
                   />
                 </lable>
                 <lable class="item__lable">
@@ -129,6 +131,7 @@
                     type="radio"
                     name="color"
                     value="pink"
+                    checked
                   />
                 </lable>
                 <lable class="item__lable-color">
@@ -141,10 +144,48 @@
                 </lable>
               </div>
 
-              <button class="primary__amount">1</button>
+              <input class="primary__amount" type="number" value="1" />
               <button class="primary__btn">Добавить в корзину</button>
             </form>
           </div>
+          <h2 class="title">Новая коллекция</h2>
+          <ul class="collection__list">
+            <li class="collection__item item--size">
+              <article class="collection__article">
+                <a href="./item.html" class="collection__link">
+                  <div class="collection__image">
+                    <img
+                      alt="photo collection"
+                      class="collection__img"
+                      src="./img/home/collection/1.jpg"
+                    />
+                  </div>
+                </a>
+                <p class="collection__item-title">Футболка USA</p>
+                <div class="collection__price">
+                  <p class="collection__old-price">$169</p>
+                  <p class="collection__new-price">$129</p>
+                </div>
+              </article>
+            </li>
+            <li class="collection__item item--size">
+              <article class="collection__article">
+                <a href="./item.html" class="collection__link">
+                  <div class="collection__image">
+                    <img
+                      alt="photo collection"
+                      class="collection__img"
+                      src="./img/home/collection/2.jpg"
+                    />
+                  </div>
+                </a>
+                <p class="collection__item-title">Купальник Glow</p>
+                <div class="collection__price">
+                  <p class="collection__new-price">$129</p>
+                </div>
+              </article>
+            </li>
+          </ul>
         </div>
       </section>
     </main>

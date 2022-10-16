@@ -1,0 +1,37 @@
+.contacts {
+  padding: 190px 0 130px;
+}
+.contacts__img {
+  max-width: 1109px;
+  width: 100%;
+  margin-bottom: 130px;
+}
+.contacts__list {
+  display: flex;
+  margin-bottom: 130px;
+}
+.contacts__item {
+  margin-right: 110px;
+}
+.contacts__item:last-child {
+  margin-right: 0;
+}
+.contacts__name {
+  margin-bottom: 19px;
+}
+
+.contacts__small-title {
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 445px;
+  width: 100%;
+}
+.contacts__textarea {
+  max-width: 450;
+  width: 100%;
+}

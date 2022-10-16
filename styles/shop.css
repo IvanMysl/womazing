@@ -24,3 +24,10 @@
   background-color: #000;
   color: #fff;
 }
+.shop__small-title{
+font-size: 17px;
+line-height: 140%;
+letter-spacing: 0.02em;
+color: #808080;
+margin-bottom: 65px;
+}
